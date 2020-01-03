@@ -1,0 +1,62 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/home.css">
+<body>
+  <h1>Mera Bank Of India</h1>
+<nav class="nav">
+  <a href="about.htm" class="tab1"><b style="color: red;">About us</b></a>
+  <a href="apply.htm" class="tab2"><b style="color: red;">Sign Up</b></a>
+  <a href="contact.html" class="tab3"><b style="color: black;">Contact</b></a>
+  <a href="login.htm" class="tab4"><b style="color:black;">Sign in</b></a>
+</nav>
+<section>
+ <img class="mySlides" src="img/home1.jpg" style="width:100%">
+  <img class="mySlides" src="img/home2.jpg"  style="width:100%">
+  <img class="mySlides" src="img/home3.png"  style="width:100%">
+</section>
+<section class="content">
+<center><h2 class="topic" style="font-size: 40px;color: orange;"><u>MERA BANK OF INDIA</u></h2></center>
+  <p class="article"><i>Most Secure and Safe banking Website</i></p>
+  <p class="justify">We have created a most secure banking website,where you can access our details of bank and as well able to apply here.
+    You can many of the things here related to bank like as:transaction,fillup of applying,login to bank and many more things.
+</p>
+</section>
+<div class="row">
+  <div class="column">
+    <p style="color: purple;font-size: 30px;"><b>Secure</b></p>
+    <p><b>This is the most secure secure website for you in all.</b></p>
+    <img src="img/secure.jpg" alt="secure" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img/transaction.jpg" alt="tran" style="width:100%">
+    <p style="color: purple;font-size: 30px;"><b>Transaction</b></p>
+<p><b>It is to transact the money from it by the way it is problemless site for you</b></p>
+  </div>
+  <div class="column">
+    <p style="color: purple;font-size: 30px;"><b>Uses</b></p>
+    <p><b>It is very easy to use,you can access it outside from country also.</b></p>
+    <img src="img/uses.jpg" alt="use" style="width:100%">
+  </div>
+</div>
+<footer>
+<p class="Powered"><hr>
+<b>Powered by<a href="#" target="_blank"> Narayan Mishra,Dipender and Jayant Jangede</a>
+</b>  </hr></p>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 3000);
+}</script>
+</body>
+</html>
